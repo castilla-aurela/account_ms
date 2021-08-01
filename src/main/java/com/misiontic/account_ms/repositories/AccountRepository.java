@@ -1,4 +1,8 @@
 package com.misiontic.account_ms.repositories;
 
-public interface AccountRepository {
+import com.misiontic.account_ms.models.Account;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+
+public interface AccountRepository extends MongoRepository <Account, String> {
 }
