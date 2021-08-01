@@ -15,4 +15,28 @@ public class Account {
         this.balance = balance;
         LastChange = lastChange;
     }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+    public Integer getBalance() {
+        return balance;
+    }
+
+    public void setBalance(Integer balance) {
+        this.balance = balance;
+    }
+
+    public Date getLastChange() {
+        return LastChange;
+    }
+
+    public void setLastChange(Date lastChange) {
+        LastChange = lastChange;
+    }
 }
