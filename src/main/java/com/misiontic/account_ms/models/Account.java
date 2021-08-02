@@ -8,12 +8,12 @@ public class Account {
     @Id
     private String userId;
     private Integer balance;
-    private Date LastChange;
+    private Date lastChange;
 
     public Account(String userId, Integer balance, Date lastChange) {
         this.userId = userId;
         this.balance = balance;
-        LastChange = lastChange;
+        this.lastChange = lastChange;
     }
 
     public String getUserId() {
@@ -33,10 +33,10 @@ public class Account {
     }
 
     public Date getLastChange() {
-        return LastChange;
+        return lastChange;
     }
 
     public void setLastChange(Date lastChange) {
-        LastChange = lastChange;
+        this.lastChange = lastChange;
     }
 }
